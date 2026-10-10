@@ -1,0 +1,42 @@
+LICENSING IN THIS REPOSITORY
+
+1. The two free Agent Skills in the skills/ folder
+     skills/wcag-contrast-check/
+     skills/habit-tracker-pdf/
+   and the ZIP packages of those skills in dist/ are licensed under the MIT
+   License below. Each skill folder also carries its own copy (LICENSE.txt).
+
+2. Everything else is NOT open source: the images in assets/, the README text,
+   the Bentley Art Design name and branding, and the product names, logos and
+   screenshots of paid products are Copyright (c) 2026 Duncan Bentley,
+   all rights reserved. You may link to this repository and its images, but
+   you may not reuse or redistribute them without written permission.
+
+3. Paid products (the PromptBase prompts and the Agensi skills "Digital Product
+   Factory" and "Design System Starter") are not included in this repository
+   and are not licensed by it. They are sold under the terms of their
+   marketplaces.
+
+-------------------------------------------------------------------------------
+
+MIT License
+
+Copyright (c) 2026 Duncan Bentley (Bentley Art Design)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

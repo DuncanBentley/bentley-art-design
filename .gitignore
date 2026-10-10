@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Output from trying the free skills locally
+# (the curated sample PDF lives in assets/free/ and stays tracked)
+/*.pdf
+/out/
+/output/
+skills/**/*.pdf
+
+# Scratch space
+/tmp/
+/_scratch/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+
+# Node (not used by this repo, kept out just in case)
+node_modules/
+
+# NOTE: dist/*.zip is tracked on purpose. The two ZIPs are ~10 KB each and are what the
+# Claude apps' "upload skill" flow needs, so the README can link to them directly.
+# Rebuild them with skillpack whenever a skill changes.

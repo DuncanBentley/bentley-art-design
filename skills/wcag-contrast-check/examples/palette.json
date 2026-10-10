@@ -1,0 +1,11 @@
+{
+  "colors": {
+    "ink": "#1A1A2E",
+    "paper": "#FFFFFF",
+    "cream": "#FAF7F2",
+    "brand": "#E94560",
+    "muted": "#6B7280"
+  },
+  "fg": ["ink", "brand", "muted"],
+  "bg": ["paper", "cream"]
+}
