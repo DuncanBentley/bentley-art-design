@@ -1,10 +1,7 @@
 <!--
   Maintainer notes (not rendered on GitHub):
   - PromptBase links must always carry the referral parameter ?via=bentleyartdesign
-  - TODO(agensi-links): both Agensi skills were submitted on 2026-10-10 and are in review.
-    When approved, replace the creator-page links marked TODO(agensi-dpf) / TODO(agensi-dss) below
-    with the individual skill URLs, and delete the "in review" note under "Agent Skills on Agensi".
-    The two free skills' SKILL.md files link to the creator page too (skills/*/SKILL.md, "Want more?").
+  - Agensi skill links are direct skill URLs (all 3 approved 2026-10-11).
   - TODO(promptbase-links, optional): swap the store link on each prompt card for that prompt's own
     PromptBase URL, keeping ?via=bentleyartdesign on the end.
   - TODO(repo-url): install commands assume github.com/DuncanBentley/bentley-art-design. Update them if
@@ -72,8 +69,7 @@ Agent Skills are SKILL.md packages with tested helper scripts. They are built an
 Code and made for any SKILL.md-compatible agent that can run Python (Codex CLI, Cursor and others),
 and they turn one request into finished, validated files.
 
-<!-- TODO(agensi-links): remove the next line once both skills are approved on Agensi. -->
-<sub>Both skills are brand new on Agensi: they appear on the <a href="https://www.agensi.io/creators/duncan-bentley">creator page</a> as soon as marketplace review is complete.</sub>
+<sub>All three skills are live on Agensi (approved 2026-10-11). More on the <a href="https://www.agensi.io/creators/duncan-bentley">creator page</a>.</sub>
 
 ### Digital Product Factory: Print-Ready PDF Packs + Listing
 
@@ -91,7 +87,7 @@ US Letter and A4, a sales listing and an upload-ready ZIP.
 - Python standard library only: no installs, no API keys, no network
 
 <p align="center">
-  <a href="https://www.agensi.io/creators/duncan-bentley"><!-- TODO(agensi-dpf) -->
+  <a href="https://www.agensi.io/skills/digital-product-factory-print-ready-pdf-packs-listing">
     <img src="assets/skills/digital-product-factory/hero.jpg" width="820" alt="Digital Product Factory: one sentence in, a designed print-ready PDF planner pack out">
   </a>
 </p>
@@ -120,7 +116,7 @@ US Letter and A4, a sales listing and an upload-ready ZIP.
 </table>
 
 <p align="center">
-  <a href="https://www.agensi.io/creators/duncan-bentley"><b>Get Digital Product Factory on Agensi &rarr;</b></a><!-- TODO(agensi-dpf) -->
+  <a href="https://www.agensi.io/skills/digital-product-factory-print-ready-pdf-packs-listing"><b>Get Digital Product Factory on Agensi &rarr;</b></a>
 </p>
 
 ### Design System Starter: Logos, WCAG Palette + Tailwind Tokens
@@ -138,7 +134,7 @@ designer's process and hands over a validated `brand/` folder you can use the sa
 - Python standard library only: no installs, no API keys, no network
 
 <p align="center">
-  <a href="https://www.agensi.io/creators/duncan-bentley"><!-- TODO(agensi-dss) -->
+  <a href="https://www.agensi.io/skills/design-system-starter-logos-wcag-palette-tailwind-tokens">
     <img src="assets/skills/design-system-starter/three-brands.jpg" width="820" alt="Three complete brand kits generated from three briefs: Crumb and Co, Ledgerly, Harbor and Pine">
   </a>
 </p>
@@ -167,7 +163,43 @@ designer's process and hands over a validated `brand/` folder you can use the sa
 </table>
 
 <p align="center">
-  <a href="https://www.agensi.io/creators/duncan-bentley"><b>Get Design System Starter on Agensi &rarr;</b></a><!-- TODO(agensi-dss) -->
+  <a href="https://www.agensi.io/skills/design-system-starter-logos-wcag-palette-tailwind-tokens"><b>Get Design System Starter on Agensi &rarr;</b></a>
+</p>
+
+### Beat Drop Reels: Beat-Synced 9:16 Promo Videos From Photos
+
+<img align="right" src="assets/skills/beat-drop-reels/logo.png" width="96" alt="Beat Drop Reels logo">
+
+**Product photos + a logo + a song in, a finished 1080x1920 promo MP4 out, with every cut on the beat.**
+Your agent maps the music (tempo, beat grid, the drop), renders the reel frame by frame and then proves the sync:
+a built-in check re-measures the beat from the finished video and reports where every cut lands.
+
+- **4 reel formats**: product drop, SOLD OUT &rarr; RESTOCKED, countdown teaser + reveal, event promo
+- **3 looks**: bold (streetwear / merch), clean (premium DTC), neon (nightlife / events)
+- **Platform-ready**: H.264, 30 fps, AAC at -14 LUFS, faststart, safe-zone aware text, optional size cap
+- **Your real images only**: nothing generated or hallucinated
+
+<p align="center">
+  <a href="https://www.agensi.io/skills/beat-drop-reels-beat-synced-9-16-promo-videos-from-photos">
+    <img src="assets/skills/beat-drop-reels/hero.jpg" width="820" alt="Beat Drop Reels: photos, a logo and a song become a beat-synced vertical promo video">
+  </a>
+</p>
+
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="assets/skills/beat-drop-reels/inputs-to-reel.jpg" width="380" alt="Inputs to finished reel"><br>
+      <sub>Your photos, logo and song become a finished reel</sub>
+    </td>
+    <td align="center" width="50%">
+      <img src="assets/skills/beat-drop-reels/beat-sync-timeline.jpg" width="380" alt="Beat sync timeline showing cuts on the beat grid"><br>
+      <sub>Cuts measured against the beat grid</sub>
+    </td>
+  </tr>
+</table>
+
+<p align="center">
+  <a href="https://www.agensi.io/skills/beat-drop-reels-beat-synced-9-16-promo-videos-from-photos"><b>Get Beat Drop Reels on Agensi &rarr;</b></a>
 </p>
 
 ---
@@ -287,7 +319,7 @@ Ask your agent: *"Check the contrast of my palette: #1A1A2E, #FFFFFF, #E94560. I
 &nbsp;·&nbsp; [SKILL.md](skills/wcag-contrast-check/SKILL.md) &nbsp;·&nbsp; [ZIP](dist/wcag-contrast-check.zip)
 
 > Want logos, color scales, Tailwind tokens and guidelines, with failing pairs fixed for you?
-> &rarr; [Design System Starter on Agensi](https://www.agensi.io/creators/duncan-bentley)<!-- TODO(agensi-dss) -->
+> &rarr; [Design System Starter on Agensi](https://www.agensi.io/skills/design-system-starter-logos-wcag-palette-tailwind-tokens)
 
 ### habit-tracker-pdf
 
@@ -310,7 +342,7 @@ Ask your agent: *"Make me a habit tracker for November 2026 with: drink water, r
 &nbsp;·&nbsp; [Sample PDF](assets/free/habit-tracker-sample-2026-11.pdf) &nbsp;·&nbsp; [SKILL.md](skills/habit-tracker-pdf/SKILL.md) &nbsp;·&nbsp; [ZIP](dist/habit-tracker-pdf.zip)
 
 > Need full planner packs in 9 styles, A4 + Letter, and a listing to sell them?
-> &rarr; [Digital Product Factory on Agensi](https://www.agensi.io/creators/duncan-bentley)<!-- TODO(agensi-dpf) -->
+> &rarr; [Digital Product Factory on Agensi](https://www.agensi.io/skills/digital-product-factory-print-ready-pdf-packs-listing)
 
 ### Install the free skills
 
